@@ -37,7 +37,7 @@ export default async function Usuarios({params}) {
                         <td>{usuario.address.city}</td>
                         <td>{usuario.address.zipcode}</td>
                         <td>{usuario.address.geo.lat}</td>
-                        <td>{usuario.address.geo.lng}</td> {/* Asegúrate de mostrar la longitud */}
+                        <td>{usuario.address.geo.lng}</td> 
                         <td>{usuario.phone}</td>
                         <td>{usuario.website}</td>
                         <td>{usuario.company.name}</td>
